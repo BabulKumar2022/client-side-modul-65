@@ -1,0 +1,25 @@
+.navbar  ul{
+    list-style: none;
+    background: rgb(150, 164, 246);
+    padding: 0;
+    margin: 0;
+
+}
+.navbar li{
+    display: inline-block;
+    text-align: center;
+  
+}
+.navbar a{
+    text-decoration: none;
+    color: #fafbfb;
+    width: 100px;
+    display: block;
+    padding: 5px 5px;
+    text-transform: uppercase;
+    text-align: center;
+  
+}
+.navbar li:hover{
+    background: orange;
+}
