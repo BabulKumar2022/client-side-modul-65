@@ -11,7 +11,7 @@ const UpdateUser = () => {
         .then(data => setUser(data))
 
         
-    },[])
+    })
     //-----------------------
     const handleUpdateUser = event =>{
         event.preventDefault();

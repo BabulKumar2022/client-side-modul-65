@@ -10,7 +10,7 @@ const Home = () => {
         .then(res => res.json())
         .then(data => setUsers(data));
     },[]);
-
+//data delete
     const handleUserDelete = id =>{
         const proceed = window.confirm('Are You sure , want to delete??');
         if(proceed){
